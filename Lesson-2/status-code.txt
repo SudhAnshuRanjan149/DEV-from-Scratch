@@ -1,0 +1,15 @@
+//Status Code
+short message from the server
+total count --> 500
+
+Categories of Status Code
+	1. 100 - 199 --> for information purpose
+	2. 200 - 299 --> Success
+	3. 300 - 399 --> redirect
+	4. 400 - 499 --> client side error
+	5. 500 - 599 --> server side error
+	6. 600+ --> user defined status Code (Not recommended to use)
+
+
+
+
