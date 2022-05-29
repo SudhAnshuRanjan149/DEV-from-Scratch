@@ -1,0 +1,20 @@
+MongoDB Benefits
+	1. NoSQL (not only SQL)
+	2. open Source
+	3. Helps in Load Balancing
+	4. Scalable
+	5. robust
+	6. flexible schema
+	7. Support Sharding
+
+Disadvantage
+	1. fail in Complex Transaction
+	2. not able to maintain ACID property
+	3. Not support JOIN in write transaction (only support JOIN in READ)
+
+//Open Atlas
+//Create new project
+//Create Database
+//Create cluster
+
+//npm i mongoose

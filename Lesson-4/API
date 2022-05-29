@@ -1,0 +1,16 @@
+API --> Application programming interface
+
+REST API --> Representational State Transfer API
+	Rules --> 
+			1. Response should be same  irrespective of request platform
+			2. Routes should be on the basis of nouns
+				example --> /user, /auth, /plans
+			3. HTTP methods should be used for doing operations on the Routes
+			4. Data should be always in JSON format
+			5. API should be stateless
+
+	Why REST API -->
+			1. 95% website use REST API
+			2. Community support
+			3. Standard way of writing APIs
+			 

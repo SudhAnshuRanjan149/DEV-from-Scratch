@@ -1,0 +1,25 @@
+Middleware --> function jo req and res ke bich ka kuchh kaam krta hai
+
+1. app.use() --> global middleware
+2. app.get() or app.post() etc --> specific path middleware
+
+Benefits of middleware
+1. error handeling me use hota hai
+2. 404 page lagane me use hota hai
+3. logger function use krne me use hota hai
+4. app.use(express.json()) --> PARSE JSON -(into)-> JAVASCRIPT OBJECT
+
+How to use them?
+function middleware(req,res,next){
+	...
+	...
+	next();
+}
+
+
+//for error handeling
+function(req,res,next,err_fun){
+	...
+	...
+	next();
+}
